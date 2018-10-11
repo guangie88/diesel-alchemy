@@ -1,0 +1,8 @@
+[package]
+name = "diesel-alchemy"
+version = "0.1.0"
+authors = ["Chen Weiguang <chen.weiguang@gmail.com>"]
+
+[dependencies]
+diesel = { version = "1.3.3", features = ["mysql", "postgres", "sqlite"] }
+byteorder = "1.2.6"
